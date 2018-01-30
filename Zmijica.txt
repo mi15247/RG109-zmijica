@@ -1,16 +1,5 @@
-Ideja:
-Napraviti strukturu koja ca da predstavlja jedan kvadratic zmijice.
-Napraviti listu tih struktura koja predstavlja zmijicu.
-Svaki put kada se produzava zmijica, svaki element liste dobija vrednosti elementa ispred njega, a glava liste dobija
-    neke nove vrednosti.
-Celo polje za igru predstaviti kao n*n matricu.
-Svaka struktura zmijice ce da cuva svoje koordinate u toj matrici.
-U funkciji on_keyboard azuriramo smer zmijice.
-U funkciji on_display azuriramo celu matricu.
+Nova ideja:
 
-typedef struct polje_zmijice{
-    int x_koordinata;
-    int y_koordinata;
-    struct polje_zmijice *sledece;
-    struct polje_zmijice *prethodno;
-}Polje_zmijice;
+-Telo zmijice se pamti u nizu.
+-Svaki put kada se zmijica pomeri svaki sledeci element niza dobija poziciju onog prethodnog,
+ a glava zmijice dobija novu poziciju u zavisnosti od smera.
