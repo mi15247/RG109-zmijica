@@ -1,5 +1,7 @@
-Nova ideja:
+Igrica je zavrsena.
 
--Telo zmijice se pamti u nizu.
--Svaki put kada se zmijica pomeri svaki sledeci element niza dobija poziciju onog prethodnog,
- a glava zmijice dobija novu poziciju u zavisnosti od smera.
+-Igra se na A-levo, W-gore, D-desno i S-dole.
+-Na samom startu pri pokretanju igrice videce se pozicija prve hrane(plava kocka).
+-Nakon svakih par pojedenih kockica zmijica ce se ubrzati.
+-Nakon izginuca u terminalu ce pisati poruka i rezultat.
+
